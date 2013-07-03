@@ -1,0 +1,40 @@
+.cf { *zoom: 1  }
+.cf:before,
+.cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.cf:after { clear: both }
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#simpleseo .box {
+    border-bottom: 1px solid #E8E8E8;
+    padding: 15px 10px;
+    position: relative;
+}
+#simpleseo .box:last-child { border: none; }
+
+#simpleseo textarea, #simpleseo input[type=text] {
+  padding: 5px;
+  resize: none;
+  width: 100%;
+}
+#simpleseo label { vertical-align: middle; }
+#simpleseo label + label { margin-left: 15px; }
+#simpleseo .inside { padding: 0; }
